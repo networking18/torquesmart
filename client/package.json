@@ -1,6 +1,7 @@
 {
   "name": "fleet-maintenance-client",
   "version": "1.0.0",
+  "homepage": "https://networking18.github.io/torquesmart",
   "private": true,
   "dependencies": {
     "@types/node": "^16.18.0",
