@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadDescription</key>
+            <string>Configuración de Torquesmart App</string>
+            <key>PayloadDisplayName</key>
+            <string>Torquesmart</string>
+            <key>PayloadIdentifier</key>
+            <string>com.torquesmart.app</string>
+            <key>PayloadOrganization</key>
+            <string>Torquesmart</string>
+            <key>PayloadType</key>
+            <string>com.apple.webClip.managed</string>
+            <key>PayloadUUID</key>
+            <string>12345678-1234-1234-1234-123456789012</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>Icon</key>
+            <data>
+                iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhf
+                DwAChwGA60e6kgAAAABJRU5ErkJggg==
+            </data>
+            <key>Label</key>
+            <string>Torquesmart</string>
+            <key>URL</key>
+            <string>http://192.168.0.18:8080</string>
+            <key>FullScreen</key>
+            <true/>
+            <key>Removable</key>
+            <true/>
+        </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>Torquesmart App Configuration</string>
+    <key>PayloadIdentifier</key>
+    <string>com.torquesmart.config</string>
+    <key>PayloadOrganization</key>
+    <string>Torquesmart</string>
+    <key>PayloadType</key>
+    <string>com.apple.configuration</string>
+    <key>PayloadUUID</key>
+    <string>87654321-4321-4321-4321-210987654321</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>

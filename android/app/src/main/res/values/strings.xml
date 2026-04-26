@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Torquesmart</string>
+    <string name="title_activity_main">Torquesmart</string>
+    <string name="package_name">com.torquesmart.app</string>
+    <string name="custom_url_scheme">com.torquesmart.app</string>
+</resources>

@@ -1,0 +1,37 @@
+# Torquesmart App Launcher - Android Package Information
+# This is a placeholder for the Android APK package
+# To create a real Android app, you would need:
+
+## Instructions for Real Android App:
+
+### Option 1: WebView App (Recommended)
+1. Install Android Studio
+2. Create new Android project
+3. Add WebView component to load: http://192.168.0.18:8080
+4. Configure PWA settings
+5. Build and generate APK
+
+### Option 2: PWA Wrapper
+1. Use services like:
+   - Bubble.io
+   - Adalo
+   - Bravo Studio
+   - AppMySite
+
+### Option 3: Capacitor/Cordova
+1. Install Node.js
+2. Run: npm install @capacitor/core @capacitor/cli
+3. Initialize: npx cap init Torquesmart
+4. Add Android platform: npx cap add android
+5. Build: npx cap build android
+
+### Current Solution:
+Use the HTML launcher: Torquesmart-App-Launcher.html
+This provides a native-like experience and opens the PWA directly.
+
+## Features:
+- Native app-like interface
+- Direct launch to Torquesmart PWA
+- Mobile optimized design
+- Offline detection
+- Device-specific optimizations

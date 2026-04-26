@@ -1,0 +1,48 @@
+{
+  "name": "fleet-maintenance-system",
+  "version": "1.0.0",
+  "description": "Sistema integral de control y logística de mantenimiento de vehículos",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon server/index.js",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "start": "node server/index.js",
+    "install-deps": "npm install && cd client && npm install"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.3.1",
+    "@capacitor/cli": "^8.3.1",
+    "@capacitor/core": "^8.3.1",
+    "@capacitor/ios": "^8.3.1",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.29.4",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.4",
+    "pg": "^8.11.3",
+    "socket.io": "^4.7.2",
+    "sqlite3": "^6.0.1",
+    "uuid": "^14.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "nodemon": "^3.0.1",
+    "typescript": "^6.0.3"
+  },
+  "keywords": [
+    "fleet",
+    "maintenance",
+    "vehicles",
+    "logistics",
+    "management"
+  ],
+  "author": "Fleet Management System",
+  "license": "MIT"
+}

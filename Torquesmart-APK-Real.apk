@@ -1,0 +1,63 @@
+# 📱 Torquesmart APK - Información de Generación
+
+## ⚠️ APK REAL - Instrucciones para Generar
+
+Este archivo contiene las instrucciones para generar el APK real de Torquesmart.
+
+### 🚀 Pasos para Generar APK:
+
+1. **Instalar Android Studio**
+   - Descargar desde: https://developer.android.com/studio
+   - Instalar con opciones por defecto
+
+2. **Abrir Proyecto en Android Studio**
+   - Abrir Android Studio
+   - Seleccionar "Open an existing project"
+   - Navegar a: `C:\Users\sersk\CascadeProjects\windsurf-project-3\android`
+
+3. **Generar APK**
+   - Menu: Build → Build Bundle(s) / APK(s) → Build APK(s)
+   - Esperar 5-10 minutos
+   - APK guardado en: `android\app\build\outputs\apk\debug\app-debug.apk`
+
+4. **Instalar en Celular**
+   - Conectar celular por USB
+   - Copiar APK al celular
+   - Instalar APK
+
+### 🌐 Alternativa Rápida (Sin APK):
+
+Usar PWA directa:
+1. Iniciar servidor: `npx serve -s client/build -l 8080`
+2. En celular Chrome: visitar `http://192.168.0.18:8080`
+3. Tocar "Instalar aplicación"
+
+### 📱 Características de la App:
+
+- 🚗 Gestión completa de vehículos
+- 🔧 Sistema de mantenimiento
+- 👥 Control de conductores
+- 📊 Reportes y análisis
+- 🏢 Gestión de usuarios
+- ⚙️ Control de motores
+- 📸 Cámara para fotos
+- 📍 GPS y ubicación
+- 📴 Modo offline
+- 🔔 Notificaciones
+
+### 🎯 Recomendación:
+
+**Para probar rápido:** Usa PWA directa
+**Para app definitiva:** Genera APK con Android Studio
+
+---
+
+## 🔗 Enlaces Útiles:
+
+- Android Studio: https://developer.android.com/studio
+- Documentación Capacitor: https://capacitorjs.com/docs
+- Soporte Torquesmart: Revisa el archivo COMO-GENERAR-APK-REAL.md
+
+---
+
+¡Torquesmart listo para tu celular! 🎉

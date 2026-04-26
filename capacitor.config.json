@@ -1,0 +1,5 @@
+{
+  "appId": "com.torquesmart.app",
+  "appName": "Torquesmart",
+  "webDir": "client/build"
+}
